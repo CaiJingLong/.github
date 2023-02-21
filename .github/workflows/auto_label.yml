@@ -1,0 +1,15 @@
+name: "Auto label for issues and pull requests"
+on:
+  pull_request:
+    types: [opened, reopened]
+  issues:
+    types: [opened, reopened]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: auto-label-flutter
+        uses: flutter-fix-something/auto-label-action@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
