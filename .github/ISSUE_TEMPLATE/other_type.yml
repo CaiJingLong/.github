@@ -17,7 +17,7 @@ body:
     id: desc
     attributes:
       label: Description of your problem
-      description: Please description
+      description: Type some info
       placeholder: Type your info
       render: markdown
     validations:
