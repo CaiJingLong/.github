@@ -14,19 +14,17 @@ body:
     validations:
       required: false
   - type: textarea
+    id: desc
+    attributes:
+      label: Description of your problem
+      description: Please description
+      placeholder: Type your info
+    render: markdown
+  - type: textarea
     id: log
     attributes:
       label: Logs
-      description: |
-        ```
-          "The logs, please wrapper of 
-
-          <details> 
-
-          Your logs...
-
-          </details>
-        ```
+      description: Your logs
       placeholder: Please wrapper of <details> </details>
       render: sh
     validations:
