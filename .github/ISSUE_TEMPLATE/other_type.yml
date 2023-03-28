@@ -22,8 +22,8 @@ body:
         "The logs, please wrapper of 
         
         <details> 
-        
-        <logs>
+       
+        Your logs...
         
         </details>
       ```
