@@ -1,0 +1,33 @@
+name: Other type
+description: If you use dart or flutter package, please use template
+title: "[Other] "
+labels:
+  - "Type: Bug"
+  - "Status: Unconfirmed"
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Version of repository
+      placeholder: ex. 1.0.0
+    validations:
+      required: false
+  - type: textarea
+    id: log
+    attributes:
+      label: Logs
+      description: |
+        "The logs, please wrapper of 
+        
+        <details> 
+        
+        ```log
+        Your logs
+        ```
+        
+        </details>"
+      placeholder: Please wrapper of <details> </details>
+      render: sh
+    validations:
+      required: false
