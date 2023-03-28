@@ -18,17 +18,15 @@ body:
     attributes:
       label: Logs
       description: |
-      ```
-        "The logs, please wrapper of 
-        
-        <details> 
-       
-        Your logs...
-        
-        </details>
-      ```
-        
-        </details>"
+        ```
+          "The logs, please wrapper of 
+
+          <details> 
+
+          Your logs...
+
+          </details>
+        ```
       placeholder: Please wrapper of <details> </details>
       render: sh
     validations:
